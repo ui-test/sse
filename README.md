@@ -1,4 +1,14 @@
-# sse
+# SSE
+UI Test for Senior Software engineers
+
+Instructions : 
+  - - Don't commit to master branch
+    - Create a fork
+    - Commit your changes to fork
+    - email us once you are done with test
+
+# UI Assessment Test
+
 
 Step 1. Create a Component which have 4 buttons [reuse that component 4 times]
   ![Image of Step-1](https://github.com/ui-test/sse/blob/master/assets/images/step1.png?raw=true)
@@ -12,3 +22,6 @@ Note:
 1.	Use Angular 2+ any version.
 2.	Push the code in github and share the link.
 3.	If you publish in Heroku its plus.
+
+# Problems?
+Feel free to contact us if something is not clear.
