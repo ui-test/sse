@@ -1,0 +1,10 @@
+<div class="container">
+  <!-- fetch again if all components are hidden -->
+  <a href="#" *ngIf="componentDivs.length == 0" (click)="displayAll()">Reset / Display All</a>
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-6" *ngFor="let componentDiv of componentDivs">
+      <app-child-view *ngIf="componentDiv.display" [componentDiv]=componentDiv (buttonClicked)="updatePage($event)">
+      </app-child-view>
+    </div>
+  </div>
+</div>
