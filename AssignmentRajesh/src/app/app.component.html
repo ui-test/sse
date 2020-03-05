@@ -1,0 +1,6 @@
+
+<ng-container *ngFor="let tile of tiles">
+
+    <app-blockcomponent *ngIf="tile.display" [tileDetails]="tile" [tiles]="tiles" (updateTileDetails)="updateTileDetails($event)"></app-blockcomponent>
+
+</ng-container>

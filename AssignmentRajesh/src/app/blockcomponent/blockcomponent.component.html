@@ -1,0 +1,13 @@
+<div class="tile">
+  <mat-grid-list cols="4" rowHeight="100px">
+    <h2 class="mi-text-header" class="titleHeader">{{tileDetails.name}}</h2>
+    <mat-grid-tile
+        *ngFor="let button of buttons"
+        [colspan]="button.cols">
+
+        <button mat-raised-button (click)="selectedTitle(button.name)">{{button.name}}</button>
+
+    </mat-grid-tile>
+  </mat-grid-list>
+
+</div>

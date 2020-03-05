@@ -1,0 +1,16 @@
+.titleHeader{
+  width: 30px;
+  height: 30px;
+  border:5px solid black;
+  border-radius: 100%;
+  top:30%;
+  left: 45%;
+  position: absolute;
+  text-align: center;
+}
+.tile{
+  width:45%;
+  border:1px solid #CCC;
+  margin: 0.5%;
+  display: inline-block;
+}
