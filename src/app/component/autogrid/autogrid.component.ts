@@ -14,7 +14,7 @@ export class AutogridComponent implements OnInit {
   @Input() State: String;
   @Input() Display: String;
 
-  private buttons: any = buttons;
+  buttons: any = buttons;
 
   constructor(private commonSVC: CommonService) {
     //this.toggleState.bind(this);

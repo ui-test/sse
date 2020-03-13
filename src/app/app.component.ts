@@ -9,9 +9,7 @@ import { CommonService } from './service/common.service';
 })
 export class AppComponent implements OnInit {
   title = 'uitest';
-  private dataSet:any ;
-  private clonedDummyData = JSON.parse(JSON.stringify(dummyData));
-  private resetBtnState:boolean =  false;
+  dataSet:any ;
 
   constructor(private commonSVC:CommonService,private cdr:ChangeDetectorRef) { }
 
