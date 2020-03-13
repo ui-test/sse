@@ -1,26 +1,41 @@
 export const dummyData = [
     {
-        id:1,
-        title:"Container 1",
-        state:"active",
-        display:"block"
+        Id:0,
+        Title:"Card 0",
+        Display:true
     },
     {
-        id:2,
-        title:"Container 2",
-        state:"active",
-        display:"block"
+        Id:1,
+        Title:"Card 1",
+        Display:true
     },
     {
-        id:3,
-        title:"Container 3",
-        state:"active",
-        display:"block"
+        Id:2,
+        Title:"Card 2",
+        Display:true
     },
     {
-        id:4,
-        title:"Container 4",
-        state:"active",
-        display:"block"
+        Id:3,
+        Title:"Card 3",
+        Display:true
     },
 ]
+
+export const buttons = [
+    {
+      Id: 0,
+      Title: "Toggle Card"
+    },
+    {
+      Id: 1,
+      Title: "Toggle Card"
+    },
+    {
+      Id: 2,
+      Title: "Toggle Card"
+    },
+    {
+      Id: 3,
+      Title: "Toggle Card"
+    }
+  ]
