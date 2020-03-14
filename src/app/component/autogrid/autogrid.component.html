@@ -1,0 +1,10 @@
+<div class="card text-center">
+  <div class="card-body bg-dark">
+    <h4 class="card-title text-white">{{Title}}</h4>
+    <hr class="mx-0 custom-hr-border-top" />
+    <button type="button" class="btn btn-primary btn-lg m-4 justify-content-center" *ngFor="let btn of buttons"
+      (click)="toggleContainer(btn.Id)">{{btn.Title}}_{{btn.Id}}
+    </button>
+  </div>
+</div> 
+
